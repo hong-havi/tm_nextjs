@@ -1,0 +1,7 @@
+.list .item {
+    background: #b1d6cb;
+    margin-bottom: 5px
+}
+.list .item span {
+    display:block
+}
