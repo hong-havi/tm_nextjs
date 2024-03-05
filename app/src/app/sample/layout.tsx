@@ -16,12 +16,16 @@ export default function RootLayout({
             <Link href="/sample/slug/a/1/2/3" className="NavButton">링크캡쳐</Link>
             <div>
                 <div>Route 그룹</div>
-                <Link href="/sample/free" className="NavButton">자유</Link>
-                <Link href="/sample/qna" className="NavButton">QNA</Link>
-                <Link href="/sample/qna2" className="NavButton">QNA2</Link>
-                <Link href="/sample/props" className="NavButton">props</Link>
-                <Link href="/sample/event1" className="NavButton">이벤트1</Link>
-                <Link href="/sample/event2" className="NavButton">이벤트2</Link>
+                <Link href="/sample/free" className="NavButton">자유</Link> |
+                <Link href="/sample/qna" className="NavButton">QNA</Link> |
+                <Link href="/sample/qna2" className="NavButton">QNA2</Link> |
+                <Link href="/sample/props" className="NavButton">props</Link> |
+                <Link href="/sample/event1" className="NavButton">이벤트1</Link> |
+                <Link href="/sample/event2" className="NavButton">이벤트2</Link> |
+                <Link href="/sample/state" className="NavButton">상태관리</Link> |
+                <Link href="/sample/zustand" className="NavButton">zustand</Link> |
+                <Link href="/sample/redux-simple" className="NavButton">redux-simple</Link> |
+                <Link href="/sample/redux" className="NavButton">redux</Link>
             </div>
         </div>
         <Suspense fallback={ <Loading></Loading> }>
